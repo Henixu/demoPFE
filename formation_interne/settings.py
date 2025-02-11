@@ -37,9 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'accounts.apps.AccountsConfig',
+    'accounts.apps.AccountsConfig',# Add the accounts app to the list of installed apps
     'corsheaders', # Add the corsheaders app to the list of installed apps
     'rest_framework', # Add the rest_framework app to the list of installed apps 
+    'rest_framework.authtoken', # Add the rest_framework.authtoken app to the list of installed apps
 ]
 
 MIDDLEWARE = [
